@@ -5,13 +5,7 @@ from twilio import twiml
 import threading
 import time
 
-waitingForAnswer = [1]
-waitingForAnswer[0] = False
-start = [1]
-start[0] = time.time()
-end = [1]
-end[0] = time.time()
-
+#Array of users
 senders = []
 
 app = Flask(__name__)
