@@ -1,0 +1,11 @@
+/home/ceruleanox/TextToSpeechApiDemo/bin/Debug/netcoreapp2.1/TextToSpeechApiDemo.deps.json
+/home/ceruleanox/TextToSpeechApiDemo/bin/Debug/netcoreapp2.1/TextToSpeechApiDemo.runtimeconfig.json
+/home/ceruleanox/TextToSpeechApiDemo/bin/Debug/netcoreapp2.1/TextToSpeechApiDemo.runtimeconfig.dev.json
+/home/ceruleanox/TextToSpeechApiDemo/bin/Debug/netcoreapp2.1/TextToSpeechApiDemo.dll
+/home/ceruleanox/TextToSpeechApiDemo/bin/Debug/netcoreapp2.1/TextToSpeechApiDemo.pdb
+/home/ceruleanox/TextToSpeechApiDemo/obj/Debug/netcoreapp2.1/TextToSpeechApiDemo.csprojAssemblyReference.cache
+/home/ceruleanox/TextToSpeechApiDemo/obj/Debug/netcoreapp2.1/TextToSpeechApiDemo.csproj.CoreCompileInputs.cache
+/home/ceruleanox/TextToSpeechApiDemo/obj/Debug/netcoreapp2.1/TextToSpeechApiDemo.AssemblyInfoInputs.cache
+/home/ceruleanox/TextToSpeechApiDemo/obj/Debug/netcoreapp2.1/TextToSpeechApiDemo.AssemblyInfo.cs
+/home/ceruleanox/TextToSpeechApiDemo/obj/Debug/netcoreapp2.1/TextToSpeechApiDemo.dll
+/home/ceruleanox/TextToSpeechApiDemo/obj/Debug/netcoreapp2.1/TextToSpeechApiDemo.pdb
