@@ -25,7 +25,7 @@ def processRequest(serverSocket):
         print(recvMsg[0:5])
         if (recvMsg[0:1] == "+"):
             account_sid = 'ACe63a7e0c309b6f39f14c3763b82e7d7a'
-            auth_token = '50a7249b40eb3857667e7114722d734e'
+            auth_token = 'replace when using'
             client = Client(account_sid, auth_token)
             recvMsg.replace("+",'')
             message = client.messages.create(
@@ -46,7 +46,7 @@ def processRequest(serverSocket):
                 if toRecv[x]["sender"] == "+" + toSend:
                     user = toRecv[x]
                     account_sid = 'ACe63a7e0c309b6f39f14c3763b82e7d7a'
-                    auth_token = '50a7249b40eb3857667e7114722d734e'
+                    auth_token = 'replace when using'
                     client = Client(account_sid, auth_token)
                     message = client.messages.create(
                         body="AUTH ACCEPTED",
@@ -63,7 +63,7 @@ def processRequest(serverSocket):
                 if toRecv[x]["sender"] == "+" + toSend:
                     user = toRecv[x]
                     account_sid = 'ACe63a7e0c309b6f39f14c3763b82e7d7a'
-                    auth_token = '50a7249b40eb3857667e7114722d734e'
+                    auth_token = 'replace when using'
                     client = Client(account_sid, auth_token)
                     message = client.messages.create(
                         body="AUTH REJECTED",
