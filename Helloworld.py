@@ -8,3 +8,4 @@ def hello():
     return f'Hello, {escape(name)}!'
 
 app.run()
+app.do_teardown_appcontext()
