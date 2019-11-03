@@ -9,6 +9,9 @@ import time
 senders = []
 firstMessage = True
 
+# SMS Response app
+# Message the twilio number that is connected to ngrok, sends a question. Response is accepted, sends right/wrong
+
 app = Flask(__name__)
 
 @app.route('/sms', methods=['GET', 'POST'])
@@ -49,19 +52,4 @@ def sms():
     resp.message(message)
     return str(resp)
 
-app2 = Flask(__name__)
-
-@app2.route('/sms', methods=['GET','POST'])
-def sms2():
-    sender = request.values.get('From')
-    print(sender)
-    resp = MessagingResponse()
-    resp.message("SMS2!!!")
-    return str(resp)
-
-#if __name__ == "__main__":
-if (firstMessage):
-    app2.run(debug=True)
-    firstMessage = False
-else :
-    app.run(debug=True)
+app.run()
